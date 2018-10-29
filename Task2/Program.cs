@@ -6,6 +6,9 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            AuthenticationManager manager = new AuthenticationManager();
+
+            manager.Login();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
